@@ -1,0 +1,2 @@
+# Pandemic
+some python practice
