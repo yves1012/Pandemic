@@ -84,5 +84,5 @@ if __name__ == '__main__':
     # 导出 CSV 文件
     columns = ["URL", "Title", "Desc"]
     site_pd = pd.DataFrame(list(filter(None, pool_res)))
-    site_pd.to_csv("/Users/yves/Desktop/shopify.csv", mode='a', header=columns, index=False, encoding="utf-8")
+    site_pd.to_csv("/Users/yves/Desktop/shopify.csv", mode='a', header=columns, index=False, encoding="utf_8_sig")
     pool.terminate()
